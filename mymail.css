@@ -34,6 +34,16 @@ body {
     padding: 15px;
 }
 
+.nombre {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: 1px solid #DADADA;
+
+    margin: 5px;
+    padding: 15px;
+}
+
 #delete {
     height: 15px;
     margin: 5px;
