@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url(assets/ecritures/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F6FA;
+    font-family: "OpenSans" ;
+    font-size: 14px;
+}
+
+
+.corps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+    margin: 5px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: 1px solid #DADADA;
+
+    margin: 5px;
+    padding: 15px;
+}
+
+#delete {
+    height: 15px;
+    margin: 5px;
+}
+
+#avatar {
+    height: 60px;
+}
