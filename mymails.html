@@ -11,61 +11,69 @@
 <body>
 
     <div class="nombre">
-        <p>Message total : <span id="spanNombreMsg">0</span></p>
+        <p>Nombre de messages : <span id="spanNombreMsg">0</span></p>
     </div>
 
-    <div class="corps">
+    <div id="global">
 
-        <img id="avatar" src="assets/images/avatar.jpg" alt="avatar">
+        <div class="corps">
 
-        <div class="message">
-            <h6>Jane DOE</h6>
+            <img id="avatar" src="assets/images/avatar.jpg" alt="avatar">
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia alias, debitis voluptatem minus nostrum amet quia facilis animi excepturi ab magni sit harum 
-                laudantium eveniet cum nam sunt eos.</p>
+            <div class="message">
+                <h4>Jane DOE</h4>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia alias, debitis voluptatem minus nostrum amet quia facilis animi excepturi ab magni sit harum 
+                    laudantium eveniet cum nam sunt eos.</p>
+
+            </div>
+
+            <img class="effacer" src="assets/icones/trash.svg" alt="effacer">
+
 
         </div>
 
-        <img id="delete" src="assets/icones/trash.svg" alt="delete">
+        <div class="corps">
 
+            <img id="avatar" src="assets/images/avatar.jpg" alt="avatar">
 
-    </div>
+            <div class="message">
+                <h4>Marie DOE</h4>
 
-    <div class="corps">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia alias, debitis voluptatem minus nostrum amet quia facilis animi excepturi ab magni sit harum 
+                    laudantium eveniet cum nam sunt eos.</p>
 
-        <img id="avatar" src="assets/images/avatar.jpg" alt="avatar">
+            </div>
 
-        <div class="message">
-            <h6>Marie DOE</h6>
+            <img class="effacer" src="assets/icones/trash.svg" alt="effacer">
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia alias, debitis voluptatem minus nostrum amet quia facilis animi excepturi ab magni sit harum 
-                laudantium eveniet cum nam sunt eos.</p>
 
         </div>
 
-        <img id="delete" src="assets/icones/trash.svg" alt="delete">
+        <div class="corps">
 
+            <img id="avatar" src="assets/images/avatar.jpg" alt="avatar">
 
-    </div>
+            <div class="message">
+                <h4>Emma DOE</h4>
 
-    <div class="corps">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia alias, debitis voluptatem minus nostrum amet quia facilis animi excepturi ab magni sit harum 
+                    laudantium eveniet cum nam sunt eos.</p>
 
-        <img id="avatar" src="assets/images/avatar.jpg" alt="avatar">
+            </div>
 
-        <div class="message">
-            <h6>Emma DOE</h6>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia alias, debitis voluptatem minus nostrum amet quia facilis animi excepturi ab magni sit harum 
-                laudantium eveniet cum nam sunt eos.</p>
+            <img class="effacer" src="assets/icones/trash.svg" alt="effacer">
 
         </div>
 
-        <img id="delete" src="assets/icones/trash.svg" alt="delete">
-
-
     </div>
 
-    <script src="script.js"></script>
+    <div id="ajoutMessage">
+        <input type="text" name="message" placeholder="Nouveau Message">
+        <button id="ajout" type="button">Ajouter</button>    
+    </div>
+
+    <script src="mymail.js"></script>
 
 </body>
 </html>
